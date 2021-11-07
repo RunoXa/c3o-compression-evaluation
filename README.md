@@ -1,4 +1,4 @@
-# Training Data Reduction for Performance Models (Bachelor thesis -  Onur Arslan -  TU-Berlin)
+# Training Data Reduction and evaluation of Performance Models (Bachelor thesis -  Onur Arslan -  TU-Berlin)
 
 ## Repository Content
 
