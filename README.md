@@ -1,18 +1,26 @@
-# C3O: Collaborative Cluster Configuration Optimization in Public Clouds
+# Training Data Reduction for Performance Models of Data Analytics Jobs in the Cloud
 
 ## Repository Content
 
 - The [C3O runtime predictor](/RuntimePrediction)
 - The [C3O cluster configurator](/ClusterConfiguration) as a prototype
 - The [Spark jobs runtime data](/data) which originates from a [previous paper](https://github.com/dos-group/c3o-experiments)
-- An [evaluation of the C3O runtime predictor](/evaluation) in single-user, collaborative and low data availability scenarios
+- An [evaluation of the C3O runtime predictor](/evaluation) with the cluster analysis methods (K-Means, K-Medoids & DBSCAN)
 
-## C3O Prototype 
+## Evaluation of the C3O runtime predictor after reducing the runtime data
+
+- The runtime data were reduced using cluster analysis methods.
+- There are three evaluations with the results after the compression:
+  /evaluation/training_data_compression_dbscan.ipynb
+  /evaluation/training_data_compression_kmeans.ipynb
+  /evaluation/training_data_compression_kmedoids.ipynb
+- The running time of the C3O runtime predictor was also measured during training. (/evaluation/time_tracking.pdf)
 
 ### Dependencies
 
 - Python >= 3.6
 - Libraries: [scipy](https://pypi.org/project/scipy/), [scikit-learn](https://pypi.org/project/scikit-learn/), [numpy](https://pypi.org/project/numpy/), [pandas](https://pypi.org/project/pandas/)
+
 
 ### Testing the prototype
 
