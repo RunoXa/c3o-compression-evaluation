@@ -9,12 +9,12 @@
 
 ## Evaluation of the C3O runtime predictor after reducing the runtime data
 
-- The runtime data were reduced using cluster analysis methods.
+- The runtime data were reduced using cluster analysis methods (K-Means, K-Medoids & DBSCAN)
 - There are three evaluations with the results after the compression:
   /evaluation/training_data_compression_dbscan.ipynb
   /evaluation/training_data_compression_kmeans.ipynb
   /evaluation/training_data_compression_kmedoids.ipynb
-- The running time of the C3O runtime predictor was also measured during training. (/evaluation/time_tracking.pdf)
+- The running time of the C3O runtime predictor was also measured during training (/evaluation/time_tracking.pdf)
 
 ### Dependencies
 
