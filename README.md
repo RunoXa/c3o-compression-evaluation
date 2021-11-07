@@ -1,4 +1,4 @@
-# Training Data Reduction for Performance Models of Data Analytics Jobs in the Cloud
+# Training Data Reduction for Performance Models of Data Analytics Jobs in the Cloud (Bachelor thesis -  Onur Arslan -  TU-Berlin)
 
 ## Repository Content
 
@@ -14,6 +14,7 @@
   /evaluation/training_data_compression_dbscan.ipynb
   /evaluation/training_data_compression_kmeans.ipynb
   /evaluation/training_data_compression_kmedoids.ipynb
+- At the end, the results of the evaluations were compared to show the better predictive accuracy of the models
 - The running time of the C3O runtime predictor was also measured during training (/evaluation/time_tracking.pdf)
 
 ### Dependencies
