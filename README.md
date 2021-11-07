@@ -1,4 +1,4 @@
-# Training Data Reduction for Performance Models of Data Analytics Jobs in the Cloud (Bachelor thesis -  Onur Arslan -  TU-Berlin)
+# Training Data Reduction for Performance Models (Bachelor thesis -  Onur Arslan -  TU-Berlin)
 
 ## Repository Content
 
